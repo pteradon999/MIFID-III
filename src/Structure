@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infront-trading-data
+        xmlns="http://schemas.infront.no/trading/portfolios/1.10">
+    <Users>
+        <User
+                Name="String"
+                Password="String"
+                Internal="false"
+                ReadOnly="false"
+                OrderOptionsProfile="Sample"
+                DefaultPortfolio="Sample"
+                CompanyProfile="Sample"
+
+            <PortfolioLinks>
+                <PortfolioLink Name="port1"/>
+                <PortfolioLink Name="port2"/>
+            </PortfolioLinks>
+            <GenericParameters>
+                <Parameter>
+                    <Key>key</Key>
+                    <Value>value</Value>
+                </Parameter>
+            </GenericParameters>
+        </User>
+    </Users>
+    <Portfolios>
+        <Portfolio
+                Name="PortfolioName"
+                Deleted="false"
+                ClearPostions="false"
+                BaseCurrency="Currency"
+                TradingPower="999999999"
+                ValidationProfile="Sample"
+                ShortSellProfile="Sample"
+                CommisionProfile="Sample"
+                LimitsProfile="Sample"
+                IntradayMaxOrderVolume="9999999"
+                IntradayMaxOrderValue="9999999"
+                PortfolioLink="String"
+                MarginRequirement="-99999999"
+                ForwardBalance="88888888"
+                AccruedCreditInterest="876876674"
+                PortfolioStatus="String"
+                RiskLevel="0"
+        >
+            <PortfolioPostions>
+                <PortfolioPosition
+                        Volume="999999"
+                        Price="99999"
+                        Type="String"
+                        Invested="99999"
+                        BaseInvested="99999"
+                        Deleted="false">
+                    <Instrument
+                            Feed="0"
+                            Ticker="String"
+                            ISIN="String"
+                            Market="String"
+                            Currency="String"
+                            Exchangeid="String"
+                            CFI="String"
+                            UnderlyingBase="String"
+                            UnderlyingTicker="String"
+                            UnderlyingISIN="String"
+                            Expiry="DateTime"
+                            Strike="9999999"
+                            ContractSize="999999"
+                            Nominal="9999999"
+                            AccruedInterest="99999999"
+                            MarketPrice="9999999"
+                    />
+                    <Cash
+                            Currency="String"
+                            SubType="false"
+                    />
+                    <IntradayCredit Currency="String" />
+                    <Custom
+                            CustomValue="String"
+                            Customid="String"
+                            Currency="String"
+                            CustomType="String"
+                    />
+                </PortfolioPosition>
+            </PortfolioPostions>
+        </Portfolio>
+    </Portfolios>
+    <FX>
+        <Rates
+                Base="String">
+            <Rate
+                    Name="String"
+                    Value="9999999"
+                    Bid="9999999"
+                    Ask="9999999"
+            />
+        </Rates>
+    </FX>
+    <Collaterals	long="100"	short="100"	requirement="100">
+
+        <Market
+                Name="String"
+                long="100"
+                short="100"
+                requirement="100"
+        >
+            <Instrument ticker="String" long="100" short="100" requirement="100"/>
+        </Market>
+    </Collaterals>
+    <ShortSellRules allowed="true">
+        <Rules>
+            <Rule
+                    Name="String"
+                    Allowed="true">
+                <Market Name="String" Allowed="true"/>
+                <Instrument Market="String" Ticker="String" Allowed="true"/>
+            </Rule>
+        </Rules>
+        <Profiles>
+            <Profile
+                    Name="String"
+                    Allowed="true">
+                <RuleRef Name="String"/>
+            </Profile>
+        </Profiles>
+    </ShortSellRules>
+    <OrderOptionProfiles>
+        <OrderOptionProfile
+                Name="String">
+            <CustomValue
+                    Number="255"
+                    Label="String">
+                <Market Name="String">
+                    <Item Name="String" Value="String" LimitOrderTypes="String" ComponentCode="String" Type="255"/>
+                </Market>
+            </CustomValue>
+        </OrderOptionProfile>
+    </OrderOptionProfiles>
+    <Commisions>
+        <CommisionProfile Name="String">
+            <Market Name="String" currency="String">
+                <Minimum>0.1</Minimum>
+                <Percentage>0.01</Percentage>
+                <PerShare>99999999</PerShare>
+                <AllAnOpen>true</AllAnOpen>
+            </Market>
+            <Default currency="String">
+                <Minimum>0.1</Minimum>
+                <Percentage>0.01</Percentage>
+                <PerShare>99</PerShare>
+                <AllAnOpen>true</AllAnOpen>
+            </Default>
+        </CommisionProfile>
+    </Commisions>
+    <MarketCalendar ClosedAction="String">
+        <DaySchedule
+                Market="String"
+                TimeZone="+3"
+                Days="String"
+                AviableFrom="HH:MM:SS"
+                ClosingTime="HH:MM:SS">
+            <Exception Date="YYYY-MM-DD" AviableFrom="HH:MM:SS/Closed" ClosingTime="HH:MM:SS"/>
+        </DaySchedule>
+    </MarketCalendar>
+    <server-limits>
+        <order>
+            <volume max="999999" error-message="String" currency="String"/>
+            <value max="999999" error-message="String" currency="String"/>
+            <market-list>
+                <market name = "String">
+                    <volume>1000</volume>
+                    <value>1000</value>
+                    <symbol-list>
+                        <symbol ticker="String">
+                            <volume max="999999" error-message="String" currency="String"/>
+                            <value max="999999" error-message="String" currency="String"/>
+                        </symbol>
+                    </symbol-list>
+                </market>
+            </market-list>
+        </order>
+        <company name="String">
+            <tag-mapping>
+                <tag id="255" value="String"/>
+            </tag-mapping>
+        </company>
+    </company-profiles>
+    <mapping-profiles>
+        <profile name="String">
+            <tag id="255" value="String"/>
+        </profile>
+        <portfolios>
+            <portfolio name="String">
+                <map profile="String"/>
+            </portfolio>
+        </portfolios>
+    </mapping-profiles>
+    <tradable-instruments Allowed="true">
+        <AlertText>AlertText</AlertText>
+        <Market Allowed="true">
+            XQSL
+            <Instrument Allowed="true" Ticker="String"/>
+        </Market>
+    </tradable-instruments>
+</infront-trading-data>
