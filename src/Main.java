@@ -14,11 +14,8 @@ public class Main{
         NewClient.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JFrame ncp = new JFrame("NCP");
-                ncp.setContentPane(new NewClientPanel().panel1);
-                ncp.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                ncp.pack();
-                ncp.setVisible(true);
+                NewClientPanel ncp = new NewClientPanel();
+                ncp.StartNCP();
             }
         });
 
