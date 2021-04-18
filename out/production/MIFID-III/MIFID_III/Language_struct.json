@@ -1,0 +1,337 @@
+{ "language": {
+    "LV": {
+      "Company_Name": "Nosaukums",
+      "Reg_Num": "Reģistrācijas numurs",
+      "Reg_country": "Reģistrācijas valsts",
+      "Name_Surname": "Klienta Pārstāvis (kura zināšanas un pieredze  tiek novērtētas) Vārds, Uzvārds",
+      "Pers_code": "Klienta Pārstāvja personas kods (ja ir)/Klienta Pārstāvja personas kods (ja ir)/\nDzimšanas datums",
+      "Pars_pam": "Pārstāvības pamats",
+      "Pars_pam_var": [
+        "Statūti vai cits pielīdzināms dokuments",
+        "Prokūra",
+        "Pilnvara",
+        "Cits"
+      ],
+      "client_port_q_1": "Vai Jūsu pārstāvētā uzņēmuma pašu kapitāls ir lielāks par 2 miljoniem EUR? ",
+      "client_port_q_2": "Vai Jūsu pārstāvētā uzņēmuma neto apgrozījums ir lielāks par 40 miljoniem EUR gadā?",
+      "client_port_q_3": "Vai Jūsu pārstāvētā uzņēmuma bilances vērtība ir lielāka par 20 miljoniem EUR?",
+      "education": "Izglītības līmenis:",
+      "educations": [
+        "Pamatizglītība",
+        "Maģistra grāds vai tam pielīdzināms grāds",
+        "Vidējā izglītība ",
+        "Bakalaura grāds vai tam pielīdzināms grāds",
+        "Doktora grāds"
+      ],
+      "prev_workplace": "Profesija/Agrākā profesija:",
+      "prev_workplaces": [
+        "Finanšu tirgus analītiķis (FI tirgus analīze, ieguldījumu pētījumu izstrāde un tml.) ",
+        "Front-office darbinieks (Darījumu ar FI veikšana iestādes un klientu uzdevumā, ieguldījumu konsultāciju sniegšana un tml.)",
+        "Front-office darbinieks (Darījumu ar FI veikšana iestādes un klientu uzdevumā, ieguldījumu konsultāciju sniegšana un tml.)",
+        "Portfeļa vai ieguldījumu fondu pārvaldnieks, investīciju stratēģis (ieguldījumu stratēģiju izstrāde un realizācija, FI portfeļu pārvaldīšana, t.sk. lēmumu par darījumiem ar FI pieņemšana)",
+        "Ieguldījumu pakalpojumu sniegšanas uzraudzības eksperts, darbības atbilstības speciālists (ieguldījumu pakalpojumu sektora uzraudzība, pārbaužu veikšana, iekšējais audits)",
+        "Cita ar FI saistīta profesija (Amata ietvaros veicamie pienākumi pēc būtības atbilst iepriekšminēto amatu ietvaros veicamajiem pienākumiem)",
+        "Cita profesija"
+      ],
+      "prev_workplace_name": "Iestādes nosaukums:",
+      "prev_worlpace_country": "Valsts:",
+      "workexp": "Nostrādātie gadi/Darba stāžs",
+      "client_q_4": "Vai Klienta finanšu instrumentu portfeļa vērtība satur finanšu līdzekļus un finanšu instrumentus, kas pārsniedz 500 000 EUR;",
+      "FI_thumbnail": "Finanšu instruments",
+      "kn_exp_thumbnail": "Zināšanas un pieredze par FI",
+      "FI_understanding_thumbnail": "FI riski un būtība",
+      "exp_thumbnail": "Pieredze",
+      "FI_quantity_thumbnail": "Darījumu skaits",
+      "FI_volume_thumbnail": "Darījuma apjoms",
+      "FI_TA_thumbnail": "Testa atbildes",
+      "kn_exp_thumbnail_sec": "Vai Jums ir zināšanas un pieredze?",
+      "kn_exp_thumbnail_atb": [
+        "Jā, un man ir piešķirts Profesionāla klienta statuss ES/EEZ iestādē",
+        "Jā, man ir pieredze un zināšanas",
+        "Nav pieredzes un zināšanu"
+      ],
+      "FI_underst_thumb_sec": "Vai Jūs saprotat darījumu būtību un ar šo FI saistītos riskus?",
+      "FI_underst_thumb_atb": [
+        "Jā",
+        "Nē"
+      ],
+      "FI_exp_thumb_sec": "Pieredze gados:",
+      "FI_exp_thumb_atb": [
+        "Līdz 1 gadam",
+        "1–3 (ieskaitot)",
+        "vairāk kā 3 gadi"
+      ],
+      "FI_quantity_thumbnail_sec": "Vidējais darījumu skaits gadā",
+      "FI_quantity_thumbnail_atb": [
+        "mazāk kā 10",
+        "10-50",
+        "50 un vairāk"
+      ],
+      "FI_volume_thumbnail_sec": "Vidējais viena darījuma apjoms (EUR)",
+      "FI_1": {
+        "volume": [
+          "mazāk kā 10 000",
+          "10 000 –  50 000",
+          "50 000 un vairāk"
+        ],
+        "FI_1_Q1": "Par parastajām akcijām",
+        "FI_1_Q2": "Nopērkot parastās akcijas, ieguldītājs:",
+        "FI_1_Q3": "Parastā akcija:",
+        "FI_Q1_A": [
+          "Parastās akcijas ir bezriska instruments, kas garantē ieguldītājam regulāru dividenžu saņemšanu, kuru apmērs ir norādīts emisijas prospektā;",
+          "Emitenta finansiālais stāvoklis neietekmē izmaksājamo dividenžu apmēru un izmaksas faktu;",
+          "Akcionāru sapulce var lemt neizmaksāt dividendes",
+          "Akciju cenas ir nemainīgas, tāpēc ieguldītājs nevar ciest zaudējumus, kas saistīti ar akciju cenu svārstības risku."
+        ],
+        "FI_Q2_A": [
+          "Apmaksā tikai akciju cenu; citas izmaksas līdz akciju pārdošanai viņam nav jāsedz;",
+          "Apmaksā akciju cenu un reizi gadā maksā akciju emitentam par tiesībām būt par akcionāru",
+          "Apmaksā akciju cenu un regulāri sedz akciju turēšanas maksu par akciju glabāšanu finanšu instrumentu kontā."
+        ],
+        "FI_Q3_A": [
+          "Dod ieguldītājam tiesības saņemt kupona ienākumu.",
+          "Dod ieguldītājam tiesības saņemt nodokļu atvieglojumu.",
+          "Dod tiesības ieguldītajam saņemt dividendes."
+        ]
+      },
+      "FI_2": {
+        "volume": [
+          "mazāk kā 100 000",
+          "100 000 –  200 000",
+          "200 000 un vairāk"
+        ],
+        "FI_2_Q1": "Emitenta maksātnespējas (bankrota) gadījumā obligāciju īpašnieki nesaņem vai nevar saņemt:",
+        "FI_2_Q2": "Parastā obligācija:",
+        "FI_2_Q3": "Kupona likme vai obligācijas garantētā procentu likme ir prēmija, kuru saņem obligācijas turētājs no emitenta kā aizdoto līdzekļu izmantošanas maksu un kura paliek nemainīga visa obligācijas izvietošanas periodā:",
+        "FI_Q1_A": [
+          "Tikai uzkrātā un neizmaksātā kupona summu",
+          "Uzkrātā un neizmaksātā kupona summu un obligāciju nominālvērtību;",
+          "Obligāciju īpašnieki saņem pilnīgu norēķinu, jo obligācijas ir bezriska produkts",
+          "Kompensāciju no noguldījumu garantiju fonda."
+        ],
+        "FI_Q2_A": [
+          "Dod ieguldītājam tiesības uz kupona ienākuma saņemšanu;",
+          "Dod ieguldītājam tiesības uz nodokļu atvieglojumu saņemšanu;",
+          "Dod ieguldītajam tiesības uz dividenžu saņemšanu."
+        ],
+        "FI_Q3_A": [
+          "Nulles likme",
+          "Fiksēta likme",
+          "Peldošā likme"
+        ]
+      },
+      "FI_3": {
+        "volume": [
+          "mazāk kā 100 000",
+          "100 000 –  200 000",
+          "200 000 un vairāk"
+        ],
+        "FI_3_Q1": "Par konvertējamo priviliģēto akciju bez balsstiesībām: ",
+        "FI_3_Q2": "Obligācija, kas tās turētājam dod tiesības pārdot obligāciju emitentam vai dzēst to pirms visas emisijas  dzēšanas termiņa ir:",
+        "FI_3_Q3": "Ja obligācijas ienesīgums ir piesaistīts indeksam, tad ieguldītājs",
+        "FI_Q1_A": [
+          "Emitenta likvidācijas gadījumā priviliģēto akciju īpašniekam ir tiesības iegūt likvidācijas kvotu ātrāk nekā parastās akcijas īpašniekam;",
+          "Konvertējama priviliģētā akcija var tikt konvertēta parastajā akcijā;",
+          "Konvertējama priviliģētā akcija nedod balsstiesības emitenta akcionāru sapulcē",
+          "Visi iepriekšējie apgalvojumi ir pareizi"
+        ],
+        "FI_Q2_A": [
+          "Atsaucamā obligācija (Callable Bond).",
+          "Konvertējamā obligācija (Convertable Bond).",
+          "Obligācijas ar pirmstermiņa atmaksas tiesībām (Puttable Bond)."
+        ],
+        "FI_Q3_A": [
+          "Saņem fiksēto kupona summu;",
+          "Vispār nesaņem kuponu;",
+          "Saņem mainīgo (peldošo) kuponu, kas ir atkarīgs no indeksa rādītājiem."
+        ]
+      },
+      "FI_4": {
+        "volume": [
+          "mazāk kā 100 000",
+          "100 000 –  200 000",
+          "200 000 un vairāk"
+        ],
+        "FI_4_Q1": "Augsta riska līmeņa parāda vērtspapīri ir:",
+        "FI_4_Q2": "Ja parada instrumenta dzēšana ir atkarīga no citu personu turējumā esošo parāda atmaksas, tad ieguldītājs:",
+        "FI_4_Q3": "Subordinēto obligāciju emitenta maksātnespējas gadījumā obligacionārs ir tiesīgs saņemt obligācijas pamatsummas atmaksu:",
+        "FI_Q1_A": [
+          "Saistīti ar risku, ka ieguldījums var tikt pilnīgi vai daļēji zaudēts",
+          "Saistīti ar risku zaudēt nozīmīgu ieguldījuma daļu.",
+          "Sarežģīti, un, ieguldot tajos, iespējams  zaudēt visu ieguldīto kapitālu",
+          "Ieguldījumi, kas saistīti ar vislielāko risku, jo zaudējumu apmērs var pārsniegt sākotnējā ieguldījuma apmēru; turklāt var nākties maksāt papildu summas."
+        ],
+        "FI_Q2_A": [
+          "Var pilnībā zaudēt ieguldījumu",
+          "Var zaudēt tikai ieguldījuma daļu.",
+          "Nezaudēs neko, jo atmaksa jebkura gadījumā notiks."
+        ],
+        "FI_Q3_A": [
+          "Pirms citu kreditoru prasījumu apmierināšanas;",
+          "Pēc citu kreditoru prasījumu apmierināšanas, bet pirms akcionāriem izmaksājamas likvidācijas kvotas saņemšanas;",
+          "Vispār nav tiesīgs neko saņemt maksātnespējas gadījumā."
+        ]
+      },
+      "FI_5": {
+        "volume": [
+          "mazāk kā 10 000",
+          "10 000 –  50 000",
+          "50 000 un vairāk"
+        ],
+        "FI_5_Q1": "Iegādājoties Call opciju un apmaksājot opcijas prēmiju,  opcijas pircējs:",
+        "FI_5_Q2": "Slēdzot kādus darījumus par Opcijām, zaudējumu risks nav ierobežots?",
+        "FI_5_Q3": "Investors ir iegādājies Fjučeru, šajā gadījumā:",
+        "FI_Q1_A": [
+          "Ir nopircis opcijas bāzes aktīvu, kura piegāde uz pircēja kontu notiks nākotnē bez papildus maksas;",
+          "Ir apņēmies samaksāt opcijā norādīto summu par bāzes aktīvu nākotnē un saņemt bāzes aktīvu;",
+          "Ir ieguvis tiesības no opcijas pārdevēja par opcijā norādīto cenu iegādāties opcijas bāzes aktīvu. Lēmums par opcijas realizēšanu/nerealizēšanu (opcijas bāzes aktīva iegādi) pieņem opcijas pircējs;",
+          "Ir ieguvis tiesības pārdot opcijas pārdevējam opcijas bāzes aktīvu par opcijā norādīto cenu. Lēmums par opcijas izmantošanu/neizmantošanu (opcijas bāzes aktīva iegādi) pieņem opcijas pircējs."
+        ],
+        "FI_Q2_A": [
+          "Jebkurš darījums par PUT Opciju;",
+          "Jebkurš darījums par CALL Opciju;",
+          "Jebkuras Opcijas  pārdošana, neatkarīgi no Opcijas veida PUT vai CALL;",
+          "Jebkuras Opcijas pirkšana, neatkarīgi no Opcijas veida PUT vai CALL."
+        ],
+        "FI_Q3_A": [
+          "Fjūčera  bāzes aktīva nebūtiskas cenas svārstības neietekmē finanšu nodrošinājumu (Maintenance margin), ko nodrošina investors;",
+          "Fjūčera  bāzes aktīva nebūtiskas cenas svārstības var būtiski ietekmēt finanšu nodrošinājumu (Maintenance margin) , ko nodrošina investors ",
+          "Tikai būtiskas Fjūčera līguma bāzes aktīva cenu svārstības var ietekmēt finanšu nodrošinājumu  (Maintenance margin) , ko nodrošina investors",
+          "Fjūčera atvērtās pozīcijas nodrošināšanai (Maintenance margin) nav nepieciešams."
+        ]
+      },
+      "FI_6": {
+        "volume": [
+          "mazāk kā 10 000",
+          "10 000 –  50 000",
+          "50 000 un vairāk"
+        ],
+        "FI_6_Q1": "Vai fondam ir pienākums atpirkt no ieguldītāja fonda daļas, saņemot ieguldītāja pieteikumu?",
+        "FI_6_Q2": "Vai fondam ir pienākums atpirkt no ieguldītāja fonda daļas, saņemot ieguldītāja pieteikumu?",
+        "FI_6_Q3": "Vai fondam ir pienākums atpirkt no ieguldītāja fonda daļas, saņemot ieguldītāja pieteikumu?",
+        "FI_Q1_A": [
+          "Jā, vienmēr.",
+          "Jā, ja tas ir atvērtais fonds.",
+          "Jā, ja fonds ir atvērtais UCITS fonds saskaņā ar termiņiem un  procedūrām, kas noteiktas fonda darbību regulējošajos dokumentos;",
+          "Nē. nav pienākuma."
+        ],
+        "FI_Q2_A": [
+          "Tā ir biržas tirgus nota (ETN);",
+          "Nodrošinātas fonda parādu saistības",
+          "Biržā tirgotas fondu daļas, kas visbiežāk atbilst akciju indeksam vai bāzes aktīvam."
+        ],
+        "FI_Q3_A": [
+          "Tas ir biržas tirgus fonds (ETF);",
+          "Ar atbilstošiem aktīviem nodrošinātas parādsaistības, ko emitē fonds;",
+          "Nenodrošinātas un nesubordinētas parādu saistības, kuras emitē banka vai cita finanšu iestāde;",
+          "Biržā tirgotās fondu daļas, kuras ir atkarīgas no biržas indeksa."
+        ]
+      },
+      "FI_7": {
+        "volume": [
+          "mazāk kā 10 000",
+          "10 000 –  50 000",
+          "50 000 un vairāk"
+        ],
+        "FI_7_Q1": "Ja fonds izmanto aizņemtos līdzekļus (finansējuma piesaistīšana, kredīts), tad:",
+        "FI_7_Q2": "Izvēlieties pareizo apgalvojumu:",
+        "FI_7_Q3": "Kurš no piedāvātajiem fondiem, Jūsuprāt, ir saistīts ar viszemāko investīciju risku?",
+        "FI_Q1_A": [
+          "Šī fonda bankrota risks ir potenciāli zemāks par  fonda bankrota risku, kas neizmanto kredītplecu, un varbūtība zaudēt ieguldījumu ir mazāka;",
+          "Šī fonda bankrota risks ir potenciāli tāds pats kā fondam, kas neizmanto kredītplecu, un investīciju zaudēšanas varbūtības  ir vienādas;",
+          "Šī fonda bankrota risks ir potenciāli augstāks par fonda bankrota risku, kas neizmanto kredītplecu, un investīciju zaudēšanas varbūtība ir augstāka."
+        ],
+        "FI_Q2_A": [
+          "Fondi, kas nav UCITS, vienmēr ir atvērtie fondi;",
+          "Fondi, kas nav UCITS, vienmēr ir slēgtie fondi;",
+          "Fondi, kas nav UCITS, var būt gan slēgtie, gan atvērtie fondi."
+        ],
+        "FI_Q3_A": [
+          "Slēgtais (AIF) fonds, kas piesaista  finansējumu (aizņemas līdzekļus vai saņem citu finansējumu) savas darbības ietvaros;",
+          "Atklātais (UCITS) fonds, kas nepiesaista finansējumu savas darbības ietvaros;",
+          "Atklātais (UCITS) fonds, kas izmanto finansējumu."
+        ]
+      },
+      "FI_8": {
+        "volume": [
+          "mazāk kā 100 000",
+          "100 000 –  200 000",
+          "200 000 un vairāk"
+        ],
+        "FI_8_Q1": "Noslēdzot Forward (nākotnes) darījumu, norēķini visbiežāk  tiek veikti",
+        "FI_8_Q2": "Noslēdzot SWAP darījumu:",
+        "FI_8_Q3": "Lūdzu izvelēties pareizo apgalvojumu",
+        "FI_Q1_A": [
+          "Nākotnes datumā, kas ir noteikta, noslēdzot Forward darījumu un iemaksājot pilnu Forward darījuma summu;",
+          "Forward noslēgšanas datumā, iemaksājot pilnu Forward darījuma summu;",
+          "Forward noslēgšanas datumā, iemaksājot Forward darījuma nodrošinājumam nepieciešamo summu;",
+          "Neviens apgalvojums nav pareizs."
+        ],
+        "FI_Q2_A": [
+          "Puses veic norēķinus par pilnām darījuma summām darījuma sākuma un darījuma beigu datumā;",
+          "Puses darījuma beigu datumā apmainās ar cenu (kursu) starpības summām;",
+          "Puses neveic norēķinus."
+        ],
+        "FI_Q3_A": [
+          "Noslēdzot Forward darījumu nav iespējams ciest zaudējumus;",
+          "SWAP darījums ir TOM (TOD) un Forward darījumu kombinācija;",
+          "Forward darījums dod tiesības nopirkt aktīvu nākotnē."
+        ]
+      },
+      "FI_9": {
+        "volume": [
+          "mazāk kā 500 000",
+          "500 000 –  1 000 000",
+          "1 000 000 un vairāk"
+        ],
+        "FI_9_Q1": "Izliekto tirgus rīkojumu, Jūs variet:",
+        "FI_9_Q2": "Ja investors atver īso FX vai CFD pozīciju, zaudējumi rodas:",
+        "FI_9_Q3": "Iegādājoties CFD uz akcijām, investors:",
+        "FI_Q1_A": [
+          "Nopirkt pēc Ask cenas un pārdot pēc Bid cenas.",
+          "Nopirkt pēc Ask cenas un pārdot pēc Ask cenas",
+          "Pārdot pēc Ask cenas un nopirkt pēc Bid cenas.",
+          "Pārdot pēc Bid cenas un nopirkt pēc Bid cenas."
+        ],
+        "FI_Q2_A": [
+          "Cenas krišanās rezultātā;",
+          "Cenas pieauguma rezultātā;",
+          "Cenas svārstības neietekmē investora finansiālo rezultātu;",
+          "Neviens apgalvojums nav pareizs."
+        ],
+        "FI_Q3_A": [
+          "Kļūst par akciju īpašnieku un var piedalīties korporatīvos notikumos;",
+          "Nekļūst par akciju īpašnieku, bet var piedalīties korporatīvos notikumos;",
+          "Akciju korporatīvie notikumi var ietekmēt investora finanšu rezultātu;",
+          "Neviens apgalvojums nav pareizs."
+        ]
+      },
+      "FI_10": {
+        "volume": [
+          "mazāk kā 100 000",
+          "100 000 –  200 000",
+          "200 000 un vairāk"
+        ],
+        "FI_10_Q1": "Kurš apgalvojums ir kļūdains: Veicot īsās pārdošanas(“short selling”) darījumu, brokeris var pieprasīt slēgt (atpirkt) īso pozīciju gadījumā, ja:",
+        "FI_10_Q2": "Kā izmainīsies  darījuma peļņa/zaudējumi, slēdzot darījumus ar maržinālo kredītplecuplecu 1:2 pie nosacīuma, ja cena mainās par 10 % ? ",
+        "FI_10_Q3": "Veicot īsās pārdošanas (“short selling”) darījumu, zaudējuma apmērs: ",
+        "FI_Q1_A": [
+          "Ir nepietiekams finanšu nodrošinājums atvērtās pozīcijas uzturēšanai  (Margin Call); ",
+          "Vērtspapīra īpašnieks pieprasa atgriezt vērtspapīru, kas tika aizdots īsās pārdošanas darījuma veikšanai;",
+          "Nav tiesību pieprasīt slēgt pozīciju, jo lēmumu par pozīcijas slēgšanu visos gadījumos pieņem tikai un vienīgi investors."
+        ],
+        "FI_Q2_A": [
+          "10%",
+          "20%",
+          "40%",
+          "100%"
+        ],
+        "FI_Q3_A": [
+          "Ir ierobežots ar aktīva īsās pārdošanas rezultātā iegūto līdzekļu summu",
+          "Ir ierobežots ar finanšu nodrošinājuma summu",
+          "Nav ierobežots"
+        ]
+      }
+    }
+  }
+}
