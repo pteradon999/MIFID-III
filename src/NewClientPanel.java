@@ -246,7 +246,7 @@ public class NewClientPanel {
         GsonBuilder builder = new GsonBuilder();
         Gson gson = builder.create();
         try {
-            Reader reader = Files.newBufferedReader(Paths.get("C:\\Users\\aserg\\IdeaProjects\\MIFID-III\\src\\Language_struct.json"));
+            Reader reader = Files.newBufferedReader(Paths.get("C:\\Users\\aserg\\eclipse-workspace\\MIFID-III\\src\\Language_struct.json"));
             MIFID_III.Language language = gson.fromJson(reader,MIFID_III.Language.class);
 
         Language_cb.addActionListener(new ActionListener() {

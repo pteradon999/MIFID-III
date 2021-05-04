@@ -4,20 +4,43 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import com.sun.jdi.IntegerValue;
+
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.lang.reflect.Type;
 
 import java.io.IOException;
 import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 import static java.lang.Integer.parseInt;
-
 public class Evaluate {
-    private String anwsers[][] = {{"3","3","3"},{"3","1","2"},{"4","3","3"},{"3","1","2"},{"3","4","3"},{"3","3","2"},{"3","3","2"},{"1","2","2"},{"1","2","3"},{"3","2","3"}};
+
 
     public String[][] getAnwsers() {
+
+        File anwsfile = new File("anwsers.txt");
+        Scanner scan = null;
+        try {
+            scan = new Scanner(anwsfile).useDelimiter("[,|]");;
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        String anwsers [][] = new String[10][3];
+        final int M = 10;
+        final int N = 3;
+        String[][] matrix = new String[M][N];
+        for (int r = 0; r < M; r++) {
+            for (int c = 0; c < N; c++) {
+                anwsers[r][c] = scan.next();
+            }
+        }
+           // for (int i=0;i<=9;i++){for (int ii=0;ii!=2;ii++){System.out.print(anwsers[i][ii]+",");}}
+
         return anwsers;
     }
 
@@ -30,7 +53,9 @@ public class Evaluate {
         System.out.println("FP");
         int rpoints = 0;
         int anwmatrix [][] = new int[10][6];
-      for (int i=0;i<10;i++) {
+        String anwsers[][] = getAnwsers();
+
+        for (int i=0;i<10;i++) {
           if (client[i][0].equals("0")){
             anwmatrix[i][0] = 2;
           }
@@ -68,7 +93,7 @@ public class Evaluate {
         } */
         GsonBuilder builder = new GsonBuilder();
         Gson gson = builder.create();
-        Reader reader = Files.newBufferedReader(Paths.get("C:\\Users\\aserg\\IdeaProjects\\MIFID-III\\src\\scens.json"));
+        Reader reader = Files.newBufferedReader(Paths.get("C:\\Users\\aserg\\eclipse-workspace\\MIFID-III\\src\\scens.json"));
         Type listType = (Type) new TypeToken<List<ScenScan>>() {}.getType();
          List<ScenScan> list = gson.fromJson(reader, (Type) listType);
          String resultTemp[] = new String[10];

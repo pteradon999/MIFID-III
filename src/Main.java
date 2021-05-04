@@ -19,6 +19,13 @@ public class Main{
             }
         });
 
+        ModAnw.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Anwsers nap = new Anwsers();
+                nap.NewAnwsersPanel();
+            }
+        });
     }
       public static void main(String[] args) {
         JFrame frame = new JFrame("MIFID");
